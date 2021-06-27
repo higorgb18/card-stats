@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+body {
+
+    background-color: hsl(233, 47%, 7%);
+
+}
+
+.cardBox {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80vw;
+    height: 60vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.leftSide {
+
+    display: flex;
+    width: 50%;
+    background-color: rgb(165, 165, 165);
+    height: 100%;
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 5px 0 0 5px;
+    
+}
+
+.textArea {
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    height: 85%;
+    width: 70%;
+    margin: auto;
+    padding: 0 5rem 0 2rem;
+
+}
+
+.textArea h2 {
+    
+    color: hsl(0, 0%, 100%)
+
+}
+
+.textArea span {
+
+    color: hsl(277, 64%, 61%);
+
+}
+
+.textArea p {
+
+    font-family: 'Lexend', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.6);
+    line-height: 1.6rem;
+    padding-right: 2rem;
+
+}
+
+.dataArea {
+
+    margin-top: 3rem;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.dataInfo {
+
+    margin-top: 1rem;    
+
+}
+
+.dataInfo h4 {
+
+    color: hsl(0, 0%, 100%);
+    line-height: 0;
+    margin: 0 auto;
+
+}
+
+.dataInfo p {
+
+    color: hsla(0, 0%, 100%, 0.6);
+    text-transform: uppercase;
+    font-size: 14px
+
+}
+
+.rightSide {
+
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background-color: hsl(277, 93%, 29%);
+    border-radius: 0 5px 5px 0;
+
+}
+
+.rightSide img {
+
+    object-fit: cover;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    opacity: .5
+
+}
